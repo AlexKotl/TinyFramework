@@ -1,0 +1,18 @@
+
+.clearBoth {clear: both;}
+.hidden {display: none !important;}
+button:focus {outline:0;}
+textarea {padding:10px; box-sizing: border-box;}
+.mobile {display: inline-block}
+.nomobile {display: none;}
+.centered {text-align: center; margin: auto;}
+div {box-sizing: border-box;}
+
+@media (min-width:500px) {	
+	@import "desktops.less";
+}
+
+
+@media (min-width:750px) {
+	@import "tablets.less";	
+}
